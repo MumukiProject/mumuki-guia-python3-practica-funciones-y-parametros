@@ -1,0 +1,28 @@
+---
+locale: es
+tags: []
+layout: input_right
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La función devuelve un string
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: nombre1 y nombre2 deberían ir entre comillas
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La función es incorrecta porque debería convertir los nombres usando `str()`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La función toma dos parámetros
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Si la función se invoca como `armar_dupla("Ana", "Guillermo")` devuelve `"Ana
+    y Guillermo"`
+  checked: false
+name: La mejor dupla
