@@ -1,0 +1,27 @@
+---
+locale: es
+tags: []
+layout: input_right
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La función debe tener dos parámetros
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La función debe tener un parámetro
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La función debe devolver un string
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La función debe devolver un booleano
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La función debe devolver un Int
+  checked: false
+name: Necesito vacaciones

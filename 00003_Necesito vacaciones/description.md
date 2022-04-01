@@ -1,0 +1,1 @@
+> Necesitamos una función que, dado un mes del año, nos diga si es vacaciones. Seleccioná las respuestas correctas.
