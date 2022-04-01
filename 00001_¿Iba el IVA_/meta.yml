@@ -1,0 +1,39 @@
+---
+locale: es
+tags: []
+layout: input_right
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Faltan los dos puntos
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Falta la sangría
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El nombre de la función es poco descriptivo
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El nombre de función no respeta las convenciones de Python
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La función no retorna nada
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El nombre de los parámetros no son descriptivos
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Usa parámetros no definidos previamente
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El número se debería escribir 0,21
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: No posee ningún error
+  checked: false
+name: "¿Iba el IVA?"
